@@ -6,11 +6,34 @@
     <title>Cafe Dubut｜つくったもの｜komorikomasha(こもりこましゃ)</title>
     <mate name="description" contnt="baserCMSの課でサイト用テーマ「Cafe Debut（カフェ・デビュー）」の紹介ページです。Cafe Bedutは、Instagramと連携して撮影した写真がすぐにサイトのトップページに反映されるおしゃれでかわいいふフォトログ風テーマです"></mate>
     <link rel="stylesheet" href="../common/css/normalize.css">
-	<link rel="stylesheet" href="../common/css/style.css">
+    <link rel="stylesheet" href="../common/css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139540855-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-139540855-1');
+    </script>
+    <!-- End Global site tag (gtag.js) - Google Analytics -->
+
 </head>
 
 <body>
-
+    <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                appId            : 'your-app-id',
+                autoLogAppEvents : true,
+                xfbml            : true,
+                version          : 'v3.3'
+                });
+            };
+            </script>
+            <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.3"></script>
 <div id="page">
     <header id="pageHead">
     <h1 id="siteTitle">komorikomasha</h1>
@@ -90,6 +113,8 @@
                 </section>
 
                 <footer class="articleDetailFoot">
+                    <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <div class="fb-like" data-href="https://www.facebook.com/miura.tokotoko" data-width="450" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                     <section>
                         <h2 class="heading-TypeC">関連リンク</h2>
                         <ul>
@@ -101,14 +126,19 @@
                     </section>
 
                     <aside class="creditUnit">
-                        <p>撮影協力</p>
-                        <h2 class="heading-TypeC">kitchen nest</h2>
-                        <p>北海道札幌市中央区南3条西8丁目　大洋ビル2階</p>
-                        <ul>
-                            <li><a href="http://www.nest-kitchen.jp">http://www.nest-kitchen.jp</a></li>
-                            <li><a href="http://Facebook.com/KitchenNest">Facebookページ</a></li>
-                        </ul>
-                        <p>Cafe Debut テーマのイメージ撮影にご協力いただきました。とっても素敵なお店です。</p>
+                        <div class="creditUnitText">
+                            <p>撮影協力</p>
+                            <h2 class="heading-TypeC">kitchen nest</h2>
+                            <p>北海道札幌市中央区南3条西8丁目　大洋ビル2階</p>
+                            <ul>
+                                <li><a href="http://www.nest-kitchen.jp">http://www.nest-kitchen.jp</a></li>
+                                <li><a href="http://Facebook.com/KitchenNest">Facebookページ</a></li>
+                            </ul>
+                            <p>Cafe Debut テーマのイメージ撮影にご協力いただきました。とっても素敵なお店です。</p>
+                        </div>
+                        <div class="creditUnitMap">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8662763504685!2d139.70871141516713!3d35.72950713493042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d5d4043e0dd%3A0x213775d25d2b034d!2z5rGg6KKL6aeF!5e0!3m2!1sja!2sjp!4v1555812517302!5m2!1sja!2sjp" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
                     </aside>
                 </footer>
             </article>
